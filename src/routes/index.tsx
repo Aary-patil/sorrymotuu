@@ -2,10 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Heart, Sparkles, Smile, Coffee, Sun, MessageCircleHeart, Music2 } from "lucide-react";
-import heroImg from "@/assets/hero-romance.jpg";
-import mem1 from "@/assets/memory-1.jpg";
-import mem2 from "@/assets/memory-2.jpg";
-import mem3 from "@/assets/memory-3.jpg";
+import heroImg from "@/assets/hero-romance-new.jpg";
+import mem1 from "@/assets/memory-1-new.jpg";
+import mem2 from "@/assets/memory-2-new.jpg";
+import mem3 from "@/assets/memory-3-new.jpg";
 import { FloatingHearts } from "@/components/FloatingHearts";
 import { MusicPlayer } from "@/components/MusicPlayer";
 import { ForgivePopup } from "@/components/ForgivePopup";
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
 const reasons = [
   { icon: Smile, text: "Your smile makes my whole day brighter" },
   { icon: MessageCircleHeart, text: "You understand me like no one else" },
-  { icon: Sun, text: "You are my peace in every storm" },
+  { icon: Sun, text: "You are my peace in every Dokdughi" },
   { icon: Coffee, text: "Even the smallest moments with you feel magical" },
   { icon: Sparkles, text: "You make me want to be a better person" },
   { icon: Heart, text: "My heart only beats softer when you're near" },
@@ -96,7 +96,7 @@ function Index() {
         >
           <Heart className="h-3 w-3 fill-primary animate-heartbeat" />
           From me, to you
-          <Heart className="h-3 w-3 fill-primary animate-heartbeat" />
+          <Smile className="h-3 w-3 fill-primary animate-heartbeat" />
         </motion.div>
 
         <motion.h1
@@ -130,24 +130,24 @@ function Index() {
 
       {/* APOLOGY */}
       <Section className="text-center">
-        <span id="letter" className="block -mt-20 pt-20" />
+        <span id="letter" className="block -mt-20 pt-20 text-slate-100" />
         <h2 className="text-5xl md:text-6xl text-foreground">My Apology</h2>
         <div className="mx-auto mt-8 h-px w-24 bg-gradient-button" />
         <p className="mx-auto mt-10 max-w-2xl text-lg leading-relaxed text-foreground/80 md:text-xl text-balance">
           I've been replaying everything in my head, and I just want you to know
-          how sorry I am. I know words can't undo the way I made you feel, but
-          please believe me when I say it wasn't who I want to be — and it
-          definitely wasn't who you deserve. You've given me so much love,
-          patience, and softness, and I promise to hold all of it more
-          carefully from now on. I love you, and I'm going to do better — for
-          us, for you, and because you mean the world to me. 💗
+          how sorry I am. You know I can't stay mad at you for long.. I know words
+          can't undo the way I made you feel, but please believe me when I say it
+          wasn't who I want to be — and it definitely wasn't who you deserve.
+          You've given me so much love, patience, and softness, and I promise to
+          hold all of it more carefully from now on. I Miss you, and I'm going to
+          do better — for us, for you, and because you mean the world to me. 💗
         </p>
       </Section>
 
       {/* REASONS */}
       <Section>
         <div className="text-center">
-          <h2 className="text-5xl md:text-6xl text-foreground">Reasons I Love You</h2>
+          <h2 className="text-5xl md:text-6xl text-foreground">Reasons I Miss You</h2>
           <p className="mt-3 text-muted-foreground">A few of the endless ones…</p>
         </div>
 
@@ -178,8 +178,13 @@ function Index() {
       {/* MEMORIES */}
       <Section>
         <div className="text-center">
-          <h2 className="text-5xl md:text-6xl text-foreground">Our Beautiful Moments</h2>
-          <p className="mt-3 text-muted-foreground">Every memory with you is a treasure</p>
+          <h2 className="text-5xl md:text-6xl text-foreground whitespace-pre-wrap">
+            You can see a Glow on your Face{"\n"}
+            when we're together
+          </h2>
+          <p className="mt-3 text-muted-foreground">
+            See see now, your hair turned white after fighting with me....
+          </p>
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
