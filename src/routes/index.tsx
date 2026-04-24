@@ -31,16 +31,16 @@ export const Route = createFileRoute("/")({
 const reasons = [
   { icon: Smile, text: "Your smile makes my whole day brighter" },
   { icon: MessageCircleHeart, text: "You understand me like no one else" },
-  { icon: Sun, text: "You are my peace in every Dokdughi" },
+  { icon: Sun, text: "You are my peace in every Dokdukhi" },
   { icon: Coffee, text: "Even the smallest moments with you feel magical" },
   { icon: Sparkles, text: "You make me want to be a better person" },
   { icon: Heart, text: "My heart only beats softer when you're near" },
 ];
 
 const memories = [
-  { src: mem1, caption: "Lazy mornings together" },
-  { src: mem2, caption: "That golden evening" },
-  { src: mem3, caption: "Little moments, big love" },
+  { src: mem1, caption: "Bagh glow baghh" },
+  { src: mem2, caption: "He without makeup (My favorite)" },
+  { src: mem3, caption: "Little moments 😌" },
 ];
 
 const fadeUp = {
