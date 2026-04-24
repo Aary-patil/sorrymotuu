@@ -42,7 +42,7 @@ export function ForgivePopup({ open, onClose }: { open: boolean; onClose: () => 
               Thank you for being my person
             </h3>
             <p className="mt-3 text-base text-muted-foreground">
-              You make every day brighter just by being you. ❤️
+              I promise I'll gift you a good hair dye..(colour jaye toh paisa wapas) ❤️
             </p>
 
             <div className="mt-6 flex justify-center gap-1 text-2xl">
